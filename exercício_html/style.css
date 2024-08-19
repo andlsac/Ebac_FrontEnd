@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color:yellow;
+}
+.botaosend{
+    background-color: green;
+}
+.botaoerase{background-color: rgb(255, 1, 1);
+}
