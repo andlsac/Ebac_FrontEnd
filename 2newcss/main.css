@@ -1,10 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+header {
+    width: 1366px;
+    margin: 0 auto;
+}
+
 header li {
     display: inline;
+    margin-left: 15px;
 }
 
 .container {
@@ -12,7 +19,16 @@ header li {
     margin: 0 auto;
 }
 
-.article {
+.articles {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
