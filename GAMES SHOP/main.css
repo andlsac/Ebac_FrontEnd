@@ -27,7 +27,8 @@ header nav ul li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,4 +36,12 @@ header .container{
 
 .brand-list img {
     height: 24px;
+}
+
+.brand-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start
 }
